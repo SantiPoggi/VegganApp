@@ -23,7 +23,7 @@ export default function Home({ navigation }) {
           Authorization: `Bearer ${YELP_API_KEY}`, 
         },
       };
-  
+          /* */
       return fetch(yelpUrl, apiOptions)
         .then((res) => res.json())
         .then((json) =>
